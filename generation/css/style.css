@@ -1,0 +1,60 @@
+body { 
+text-align: center; 
+padding: 0; 
+margin: 0; 
+background-image:url(images/fond.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+} 
+
+table { 
+margin : 10px auto auto auto; 
+text-align:center;
+  background-color:rgba(255, 255, 255, 0.3);
+} 
+
+td,tr {
+
+text-align:center;
+vertical-align:middle;
+align:center;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 800px;
+  vertical-align:middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+input:focus {
+  background: #eaeaea;
+}
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  vertical-align:middle;
+}
+ 
+label {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+
+input,select,textarea {
+    width:200px;
+}
+
+
+input:focus:invalid {
+  background: #fba;
+}
+
+ 
